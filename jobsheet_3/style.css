@@ -1,0 +1,56 @@
+.navbar {
+    display: flex;
+    border: 5px solid teal;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 12px;
+    background-color:yellow;
+}
+.Logo {
+    align-items: center;
+    
+}
+
+.menu {
+    display: grid;
+    margin-bottom: 10px;
+    border: 3px solid black;
+    grid-template-columns: repeat(3,1fr);
+    gap: 12px;
+    padding: 12px;
+    align-items: center;
+}
+
+.hero {
+    display: grid;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 3px solid black;
+    grid-template-columns: repeat(3,1fr);
+    gap: 12px;
+    padding: 12px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.hero-text {
+    width: 1000px;
+}
+
+.judul-promosi {
+
+    display: grid;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: 3px solid black;
+    grid-template-columns: repeat(1,1fr);
+    gap: 12px;
+    padding: 12px;
+    font-family: Arial;
+    color:red ;
+}
+
+     
