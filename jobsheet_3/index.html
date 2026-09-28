@@ -7,26 +7,118 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
      <nav class="navbar">
-        <img src="ferrari.jpg" alt="ferrari" width="135">
+        <div class = "Logo">
+            <img src="ferrari-logo.jpg" alt="ferrari" width="115">
+        </div>
         <ul class="menu">
-            <li><a href="#">Menu 1</li></a>
-            <li><a href="#">Menu 2</li></a>
-            <li><a href="#">Menu 3</li></a>
+            <li><a href="#">Menu 1</a></li>
+            <li><a href="#">Menu 2</a></li>
+            <li><a href="#">Menu 3</li></a></li>
         </ul>
     </nav>
-    <header>
-        <section class="hero">
-            <div class="hero-text">
-                <h3 class="judul-promosi">Ferarri-Red and Black</h3>
-                <h4>Harga 1.500.000.000</h4>
-            </div>
-            <div class="hero-image">
-                <img src="ilustrasi.jpg" alt="ilustrasi" width="750">
-            </div>
-        </section>
-
     </header>
-    
+        <section class="hero">
+
+        <div class="hero-text">
+            <h1>Judul Promosi</h1>
+
+            <p>
+                Temukan produk terbaik dengan harga
+                menarik hanya di ferrariStore.
+            </p>
+
+            <a href="ilustrasi.jpg" class="btn">
+                Belanja Sekarang
+            </a>
+        </div>
+
+        <div class="hero-image">
+            <img src="ilustrasi.jpg" alt="Gambar Hero">
+        </div>
+
+    </section>
+
+
+    <section class="produk-section" id="produk">
+
+        <h2>Galeri Produk</h2>
+
+        <div class="produk-container">
+
+            
+            <div class="produk-card">
+                <img src="images1.jpg" alt="Ferrari">
+
+                <div class="produk-info">
+                    <h3>Ferrari-Grey-fancy</h3>
+                    <p>$1.500.0000</p>
+                    <button onclick="beli('Ferrari')">
+                        Beli
+                    </button>
+                </div>
+            </div>
+
+            
+            <div class="produk-card">
+                <img src="images/baju.jpg" alt="Baju">
+
+                <div class="produk-info">
+                    <h3>ferrari-yellow-elegent</h3>
+                    <p>Rp100.000</p>
+                    <button onclick="beli('Baju Casual')">
+                        Beli
+                    </button>
+                </div>
+            </div>
+
+            
+            <div class="produk-card">
+                <img src="ferarri-black-death" alt="Sepatu">
+
+                <div class="produk-info">
+                    <h3>Sepatu Sneakers</h3>
+                    <p>Rp250.000</p>
+                    <button onclick="beli('Sepatu Sneakers')">
+                        Beli
+                    </button>
+                </div>
+            </div>
+
+            
+            <div class="produk-card">
+                <img src="images/jam.jpg" alt="Jam Tangan">
+
+                <div class="produk-info">
+                    <h3>Jam Tangan</h3>
+                    <p>Rp200.000</p>
+                    <button onclick="beli('Jam Tangan')">
+                        Beli
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="fitur-container">
+
+        <div class="fitur-card">
+            <h3>Kartu Berikutnya</h3>
+            <p>Informasi tambahan toko.</p>
+        </div>
+
+        <div class="fitur-card">
+            <h3>Menyesuaikan</h3>
+            <p>Informasi layanan pelanggan.</p>
+        </div>
+
+        <div class="fitur-card">
+            <h3>Lebar Layar</h3>
+            <p>Tampilan responsif berbagai perangkat.</p>
+        </div>
+
+    </section>
 </body>
 </html>
