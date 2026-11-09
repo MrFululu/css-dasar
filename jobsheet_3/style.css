@@ -9,6 +9,7 @@
     background-color:rgb(255, 255, 255);
 }
 .Logo {
+    display: flex;
     align-items: center;
     position: relative;
     left: 15px ;
@@ -18,7 +19,7 @@
 }
 
 .menu {
-    
+    display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
     border: 2px solid rgb(3, 3, 3);
